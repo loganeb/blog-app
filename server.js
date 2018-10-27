@@ -27,3 +27,5 @@ app.listen(app.get('port'), err => {
 });
 
 router(app);
+
+module.exports = app;
